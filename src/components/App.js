@@ -4,7 +4,7 @@ import { useWeb3 } from '@openzeppelin/network/react';
 import Web3Data from './Web3Data';
 
 const App = () => {
-  const infuraProjectId = 'a16e4588a1b44d059162f94155937b34';
+  const infuraProjectId = 'INFURA_PROJECT_ID...';
   const web3Context = useWeb3(`wss//mainnet.infura.io/ws/v3/${infuraProjectId}`);
 
   return (
